@@ -1,0 +1,10 @@
+# we do not want to include this bad boy
+./.env
+
+# cut down to just the bare source by ignoring large build files
+__pycache__/
+build/
+dist/
+*.pkg
+*.exe
+AmplifAI.spec
